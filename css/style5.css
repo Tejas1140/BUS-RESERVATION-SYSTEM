@@ -1,0 +1,351 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+
+}   
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #transparent;
+    transition: 0.8s ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+
+.main{
+    max-height: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 90px;
+
+
+
+}
+.button{position: absolute;
+    top: 62%;
+    left: 20%;
+    float: center
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.search-btn{
+    border: 2px solid #d84e55;
+    height: 21px;
+    width: 120px;
+    background-color: #d84e55;
+    color: #fff;
+    
+}
+span{
+    color: #f44336;
+}
+.co
+.co {
+  position: relative;
+  height: 700px;
+}
+.title2{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 192%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title2-1{
+    position: absolute;
+    position: center;
+    font-size: 15px;
+    color: blue;
+    top: 205%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title3{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 164%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title3-1{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 215%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title3-2{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title3-3{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 320%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title1{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: blue;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title4{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color:#ffd800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title5{
+    position: absolute;
+    position: center;
+    font-size: 17px;
+    color:#fff;
+    top: 340%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+h6{
+    position: absolute;
+    position: center;
+    font-size: 17px;
+    color:red;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.co1{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:113%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav1 div{
+    height: 4px;
+    background-color: red;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.co2{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:170%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav2 div{
+    height: 4px;
+    background-color: green;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.co3{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:223%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav3 div{
+    height: 4px;
+    background-color: orange ;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+
+.co4{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:275%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav4 div{
+    height: 4px;
+    background-color: purple ;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+
+.co5{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:324%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav5 div{
+    height: 4px;
+    background-color: blue ;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.logo1 img{
+
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    position: center;
+    font-size: 15px;
+    color: black;
+    top: 345%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+.bus1 img{
+    width: 500px;
+    height: 230px;
+    position: absolute;
+    position: center;
+    color: black;
+    left: 50%;
+    right: 50%;
+    top: 140%;
+    transform: translate(-50%,-50%);
+
+        
+}
+.bus2 img{
+    width: 450px;
+    height: 230px;
+    position: absolute;
+    position: center;
+    color: black;
+    left: 50%;
+    right: 50%;
+    top: 195%;
+    transform: translate(-50%,-50%);
+
+        
+}
+
+.bus3 img{
+    width: 450px;
+    height: 230px;
+    position: absolute;
+    position: center;
+    color: black;
+    left: 50%;
+    right: 50%;
+    top: 247%;
+    transform: translate(-50%,-50%);
+
+        
+}
+
+.bus4 img{
+    width: 450px;
+    height: 230px;
+    position: absolute;
+    position: center;
+    color: black;
+    left: 50%;
+    right: 50%;
+    top: 297%;
+    transform: translate(-50%,-50%);
+
+        
+}

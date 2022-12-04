@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+
+}   
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #transparent;
+    transition: 0.8s ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+
+.main{
+    max-height: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 90px;
+
+
+
+}
+.button{position: absolute;
+    top: 62%;
+    left: 20%;
+    float: center
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 80px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.search-btn{
+    border: 2px solid #d84e55;
+    height: 21px;
+    width: 120px;
+    background-color: #d84e55;
+    color: #fff;
+    
+}
+span{
+    color: #f44336;
+}
+.co
+.co {
+  position: relative;
+  height: 700px;
+}
+.title2{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color: red;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title2-1{
+    position: absolute;
+    position: center;
+    font-size: 15px;
+    color: blue;
+    top: 213%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title4{
+    position: absolute;
+    position: center;
+    font-size: 20px;
+    color:#ffd800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title5{
+    position: absolute;
+    position: center;
+    font-size: 17px;
+    color:#fff;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+h6{
+    position: absolute;
+    position: center;
+    font-size: 17px;
+    color:red;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.co1{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:104%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav1 div{
+    height: 4px;
+    background-color: red;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.co2{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:195%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav2 div{
+    height: 4px;
+    background-color: green;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.co3{
+    width: 15%;
+    height: 8%;
+    text-align: center;
+    top:218%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.nav3 div{
+    height: 4px;
+    background-color: orange ;
+    margin: 25px 0;
+    border-radius: 25px;
+
+}
+.logo1 img{
+
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    position: center;
+    font-size: 15px;
+    color: black;
+    top: 245%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+
+.wrapper{
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: blue;
+}
+
+.wrapper .input_field{
+  margin-bottom: 8px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 2px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,16 @@
+<html>
+	<body>
+	<p>Click the button to do a global, case-insensitive search for the character-span [a-s].</p>
+	<button onclick="myFunction()">Try it</button>
+	<p id="demo"></p>
+		<script>
+			function myFunction() 
+			{
+				  var str = "I Scream For Ice Cream, is that OK?!";
+				  var patt1 = /[a-s]/gi;
+				  var result = str.match(patt1);
+				  document.getElementById("demo").innerHTML = result;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY FIRST WEBPAGE</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+		</div>
+		<ul>
+			<li class="#"><a href="index.html">Home</a></li>
+			<li a class="active"><a href="searchbox.html" title="Search">Search</a></li>
+			<li><a href="gallery.php">Gallery</a></li>
+			<li><a href="about.php">About Us</a></li>
+			<li class="#"> <a href="contact.html">Contact</a></li>
+		</ul>
+		<div class="title">
+		<h1>B.V.P.<span>TRAVELS</span></h1>
+		<h2>SEARCH <span>BUSES</span> </h2>	
+		</div>
+		<div class="button">
+			<form>
+			<div class="form-box">
+				<input class="form" name="search" type="text" placeholder=" FROM"/>
+				
+				<input class="to" name="location" type="text" placeholder="TO"/>
+
+				<input class="return" name="location" type="date" placeholder="RETURN DATE"/>
+
+				<button class="search-btn" type="button">SEARCH BUSES</button>
+
+			</div>
+
+		</form>
+
+		<form method='post' action='fielddel.php'>
+			<div class="container" style="margin-top:150px">
+			<div>
+			<table class="table table-bordered table-striped table-hover" style="width:60%;">
+			<thead data-toggle="tooltip" title="Field records">
+			<tr>
+					<th> Field ID </th>
+					<th> Crop</th>
+					<th> SOW DATE</th>
+					<th> Area </th>
+					<th> Worker ID</th>
+			</tr>
+			</thead>
+			<tbody id="myTable">
+			<?php
+			$username = "root";
+			$password = "";
+			$database = "bms";
+			$user = $_COOKIE['username'];
+			$mysqli = new mysqli("localhost", $username, $password, $database);
+			$query = "SELECT * FROM field where user = '$user' order by farm_no";
+			
+			if ($result = $mysqli->query($query)) {
+			  while ($row = $result->fetch_assoc()) {
+				  $field1name = $row["farm_no"];
+				  $field2name = $row["CROP"];
+				  $field3name = $row["SOW_DATE"];
+				  $field4name = $row["TOTAL_AREA"];
+				  $field5name = $row["W_ID"];
+			?>
+			<tr id="tr_<?= $field1name ?>">
+			
+					<td><?= $field1name ?></td>
+					<td><?= $field2name ?></td>
+					<td><?= $field3name ?></td>
+					<td><?= $field4name ?></td>
+					<td><?= $field5name ?></td>
+					<td><input type='checkbox' name='delete[]' value='<?= $field1name ?>' style="cursor:pointer;" ></td>
+			 
+				</tr>
+				<?php
+				 }
+			  $result->free();
+			}
+				?>
+			
+			
+			
+			
+			</tbody>
+			</table>
+			</div>
+			
+		</div>
+	</header>
+
+</body>
+</html>
